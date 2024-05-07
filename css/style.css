@@ -537,7 +537,7 @@ body {
 
 /* start footer  */
 .footer {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
     background-color: #07043b;
     color: white;
 }
@@ -591,6 +591,17 @@ body {
     display: flex;
     gap: 30px;
 }
+.footer .copy-right {
+    width: 100%;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 30px;
+    margin-top: 53px 0;
+    margin: 50px 0 0 0;
+    background-color: #13104a;
+    letter-spacing: 2px;
+}
 
 .footer .social i {
     font-size: 30px;
@@ -601,5 +612,10 @@ body {
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+
+    .footer .copy-right {
+        font-size: 15px;
+        letter-spacing: 2px;
     }
 }
